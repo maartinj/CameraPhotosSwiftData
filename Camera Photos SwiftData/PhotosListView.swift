@@ -5,6 +5,8 @@
 //  Created by Marcin Jędrzejak on 21/04/2024.
 //
 
+// Link 1: https://www.youtube.com/watch?v=T7wf4DGPCHs&ab_channel=StewartLynch
+
 import SwiftUI
 import SwiftData
 
@@ -24,8 +26,7 @@ struct PhotosListView: View {
                                     .resizable()
                                     .scaledToFill()
                                     .frame(width: 50, height: 50)
-                                    .cornerRadius(12)
-                                    .clipped()
+                                    .clipShape(RoundedRectangle(cornerRadius: 12))
                                     .padding(.trailing)
                                 Text(sample.name)
                                     .font(.title)
@@ -43,7 +44,7 @@ struct PhotosListView: View {
                 }
             }
             .navigationDestination(for: SampleModel.self) { sample in
-                
+                SampleView(sample: sample)
             }
             .navigationTitle("Picker or Camera")
             .toolbar {
