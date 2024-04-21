@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		E4C401EA2BD5A7050058E67B /* Camera_Photos_SwiftDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C401E92BD5A7050058E67B /* Camera_Photos_SwiftDataApp.swift */; };
-		E4C401EC2BD5A7050058E67B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C401EB2BD5A7050058E67B /* ContentView.swift */; };
+		E4C401EC2BD5A7050058E67B /* PhotosListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C401EB2BD5A7050058E67B /* PhotosListView.swift */; };
 		E4C401EE2BD5A7060058E67B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C401ED2BD5A7060058E67B /* Assets.xcassets */; };
 		E4C401F22BD5A7060058E67B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C401F12BD5A7060058E67B /* Preview Assets.xcassets */; };
+		E4C401F92BD5ACAD0058E67B /* SampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C401F82BD5ACAD0058E67B /* SampleModel.swift */; };
+		E4C401FC2BD5AE6F0058E67B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C401FB2BD5AE6F0058E67B /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E4C401E62BD5A7050058E67B /* Camera Photos SwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Camera Photos SwiftData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C401E92BD5A7050058E67B /* Camera_Photos_SwiftDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera_Photos_SwiftDataApp.swift; sourceTree = "<group>"; };
-		E4C401EB2BD5A7050058E67B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4C401EB2BD5A7050058E67B /* PhotosListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListView.swift; sourceTree = "<group>"; };
 		E4C401ED2BD5A7060058E67B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4C401EF2BD5A7060058E67B /* Camera_Photos_SwiftData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Camera_Photos_SwiftData.entitlements; sourceTree = "<group>"; };
 		E4C401F12BD5A7060058E67B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4C401F82BD5ACAD0058E67B /* SampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleModel.swift; sourceTree = "<group>"; };
+		E4C401FB2BD5AE6F0058E67B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				E4C401E92BD5A7050058E67B /* Camera_Photos_SwiftDataApp.swift */,
-				E4C401EB2BD5A7050058E67B /* ContentView.swift */,
+				E4C401EB2BD5A7050058E67B /* PhotosListView.swift */,
+				E4C401F82BD5ACAD0058E67B /* SampleModel.swift */,
+				E4C401FA2BD5AE5E0058E67B /* ImagePicker_Camera */,
 				E4C401ED2BD5A7060058E67B /* Assets.xcassets */,
 				E4C401EF2BD5A7060058E67B /* Camera_Photos_SwiftData.entitlements */,
 				E4C401F02BD5A7060058E67B /* Preview Content */,
@@ -67,6 +73,14 @@
 				E4C401F12BD5A7060058E67B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4C401FA2BD5AE5E0058E67B /* ImagePicker_Camera */ = {
+			isa = PBXGroup;
+			children = (
+				E4C401FB2BD5AE6F0058E67B /* Constants.swift */,
+			);
+			path = ImagePicker_Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C401EC2BD5A7050058E67B /* ContentView.swift in Sources */,
+				E4C401EC2BD5A7050058E67B /* PhotosListView.swift in Sources */,
+				E4C401F92BD5ACAD0058E67B /* SampleModel.swift in Sources */,
 				E4C401EA2BD5A7050058E67B /* Camera_Photos_SwiftDataApp.swift in Sources */,
+				E4C401FC2BD5AE6F0058E67B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

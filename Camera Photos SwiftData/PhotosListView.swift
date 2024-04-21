@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  PhotosListView.swift
 //  Camera Photos SwiftData
 //
 //  Created by Marcin Jędrzejak on 21/04/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct PhotosListView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    PhotosListView()
 }
