@@ -4,6 +4,7 @@
 //
 //  Created by Marcin Jędrzejak on 25/04/2024.
 //
+// Additional resource - ImagePicker Gist: https://gist.github.com/StewartLynch/45304cd2cb640f7c334e392e059e2a57
 
 import SwiftUI
 import PhotosUI
