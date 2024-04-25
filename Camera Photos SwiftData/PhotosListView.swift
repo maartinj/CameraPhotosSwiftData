@@ -14,6 +14,7 @@ import SwiftData
 struct PhotosListView: View {
     @Query(sort: \SampleModel.name) var samples: [SampleModel]
     @Environment(\.modelContext) private var modelContext
+    @State private var formType: ModelFormType?
     var body: some View {
         NavigationStack {
             Group {
@@ -50,10 +51,11 @@ struct PhotosListView: View {
             .navigationTitle("Picker or Camera")
             .toolbar {
                 Button {
-                    
+                    formType = .new
                 } label: {
                     Image(systemName: "plus.circle.fill")
                 }
+                .sheet(item: $formType) { $0 }
             }
         }
     }

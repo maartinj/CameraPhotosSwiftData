@@ -24,7 +24,7 @@ struct UpdateEditFormView: View {
                         Button("Clear image") {
                             vm.clearImage()
                         }
-                        .buttonStyle(.borderedProminent)
+                        .buttonStyle(.bordered)
                     }
                     HStack {
                         Button("Camera", systemImage: "camera") {
