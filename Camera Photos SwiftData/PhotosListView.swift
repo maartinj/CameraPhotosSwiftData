@@ -6,6 +6,7 @@
 //
 
 // Link 1: https://www.youtube.com/watch?v=T7wf4DGPCHs&ab_channel=StewartLynch
+// Link 2: https://www.youtube.com/watch?v=WT7bYj80gJ0&ab_channel=StewartLynch
 
 import SwiftUI
 import SwiftData
@@ -13,6 +14,7 @@ import SwiftData
 struct PhotosListView: View {
     @Query(sort: \SampleModel.name) var samples: [SampleModel]
     @Environment(\.modelContext) private var modelContext
+    @State private var formType: ModelFormType?
     var body: some View {
         NavigationStack {
             Group {
@@ -49,10 +51,11 @@ struct PhotosListView: View {
             .navigationTitle("Picker or Camera")
             .toolbar {
                 Button {
-                    
+                    formType = .new
                 } label: {
                     Image(systemName: "plus.circle.fill")
                 }
+                .sheet(item: $formType) { $0 }
             }
         }
     }
