@@ -6,6 +6,7 @@
 //
 
 // Link 1: https://www.youtube.com/watch?v=T7wf4DGPCHs&ab_channel=StewartLynch
+// Link 2: https://www.youtube.com/watch?v=WT7bYj80gJ0&ab_channel=StewartLynch
 
 import SwiftUI
 import SwiftData

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E434FF022BDAF26200C00693 /* UpdateEditFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E434FF012BDAF26200C00693 /* UpdateEditFormViewModel.swift */; };
 		E4C401EA2BD5A7050058E67B /* Camera_Photos_SwiftDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C401E92BD5A7050058E67B /* Camera_Photos_SwiftDataApp.swift */; };
 		E4C401EC2BD5A7050058E67B /* PhotosListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C401EB2BD5A7050058E67B /* PhotosListView.swift */; };
 		E4C401EE2BD5A7060058E67B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C401ED2BD5A7060058E67B /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E434FF012BDAF26200C00693 /* UpdateEditFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEditFormViewModel.swift; sourceTree = "<group>"; };
 		E4C401E62BD5A7050058E67B /* Camera Photos SwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Camera Photos SwiftData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C401E92BD5A7050058E67B /* Camera_Photos_SwiftDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera_Photos_SwiftDataApp.swift; sourceTree = "<group>"; };
 		E4C401EB2BD5A7050058E67B /* PhotosListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListView.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E434FF002BDAF25000C00693 /* Model Edits */ = {
+			isa = PBXGroup;
+			children = (
+				E434FF012BDAF26200C00693 /* UpdateEditFormViewModel.swift */,
+			);
+			path = "Model Edits";
+			sourceTree = "<group>";
+		};
 		E4C401DD2BD5A7050058E67B = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 				E4C401EB2BD5A7050058E67B /* PhotosListView.swift */,
 				E4C401FD2BD5B42A0058E67B /* SampleView.swift */,
 				E4C401F82BD5ACAD0058E67B /* SampleModel.swift */,
+				E434FF002BDAF25000C00693 /* Model Edits */,
 				E4C401FA2BD5AE5E0058E67B /* ImagePicker_Camera */,
 				E4C401ED2BD5A7060058E67B /* Assets.xcassets */,
 				E4C401EF2BD5A7060058E67B /* Camera_Photos_SwiftData.entitlements */,
@@ -157,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4C401FE2BD5B42A0058E67B /* SampleView.swift in Sources */,
+				E434FF022BDAF26200C00693 /* UpdateEditFormViewModel.swift in Sources */,
 				E4C401EC2BD5A7050058E67B /* PhotosListView.swift in Sources */,
 				E4C401F92BD5ACAD0058E67B /* SampleModel.swift in Sources */,
 				E4C401EA2BD5A7050058E67B /* Camera_Photos_SwiftDataApp.swift in Sources */,
