@@ -7,6 +7,7 @@
 
 import UIKit
 
+@Observable
 class UpdateEditFormViewModel {
     var name: String = ""
     var data: Data?
