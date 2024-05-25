@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E42E76512C0164E100532CBE /* CameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E76502C0164E100532CBE /* CameraPermission.swift */; };
 		E42E76532C01675900532CBE /* UIKitCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E76522C01675900532CBE /* UIKitCamera.swift */; };
+		E42E76572C0178E800532CBE /* ZoomableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E76562C0178E800532CBE /* ZoomableScrollView.swift */; };
 		E434FF022BDAF26200C00693 /* UpdateEditFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E434FF012BDAF26200C00693 /* UpdateEditFormViewModel.swift */; };
 		E434FF042BDAF62F00C00693 /* UpdateEditFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E434FF032BDAF62F00C00693 /* UpdateEditFormView.swift */; };
 		E434FF062BDAF93D00C00693 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E434FF052BDAF93D00C00693 /* ImagePicker.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		E42E76502C0164E100532CBE /* CameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermission.swift; sourceTree = "<group>"; };
 		E42E76522C01675900532CBE /* UIKitCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitCamera.swift; sourceTree = "<group>"; };
+		E42E76562C0178E800532CBE /* ZoomableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomableScrollView.swift; sourceTree = "<group>"; };
 		E434FF012BDAF26200C00693 /* UpdateEditFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEditFormViewModel.swift; sourceTree = "<group>"; };
 		E434FF032BDAF62F00C00693 /* UpdateEditFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEditFormView.swift; sourceTree = "<group>"; };
 		E434FF052BDAF93D00C00693 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				E4C401FB2BD5AE6F0058E67B /* Constants.swift */,
 				E434FF052BDAF93D00C00693 /* ImagePicker.swift */,
 				E42E76502C0164E100532CBE /* CameraPermission.swift */,
+				E42E76562C0178E800532CBE /* ZoomableScrollView.swift */,
 				E42E76522C01675900532CBE /* UIKitCamera.swift */,
 			);
 			path = ImagePicker_Camera;
@@ -192,6 +195,7 @@
 				E434FF062BDAF93D00C00693 /* ImagePicker.swift in Sources */,
 				E42E76512C0164E100532CBE /* CameraPermission.swift in Sources */,
 				E434FF042BDAF62F00C00693 /* UpdateEditFormView.swift in Sources */,
+				E42E76572C0178E800532CBE /* ZoomableScrollView.swift in Sources */,
 				E4C401FC2BD5AE6F0058E67B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
