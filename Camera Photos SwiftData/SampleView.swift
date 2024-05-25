@@ -5,6 +5,10 @@
 //  Created by Marcin Jędrzejak on 21/04/2024.
 //
 
+// Link Part 1: https://www.youtube.com/watch?v=T7wf4DGPCHs&ab_channel=StewartLynch
+// Link Part 2: https://www.youtube.com/watch?v=WT7bYj80gJ0&ab_channel=StewartLynch
+// Link Part 3: https://www.youtube.com/watch?v=1ZYE5FcUN4Y&ab_channel=StewartLynch
+
 import SwiftUI
 import SwiftData
 
