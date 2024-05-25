@@ -10,6 +10,7 @@
 		E42E76512C0164E100532CBE /* CameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E76502C0164E100532CBE /* CameraPermission.swift */; };
 		E42E76532C01675900532CBE /* UIKitCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E76522C01675900532CBE /* UIKitCamera.swift */; };
 		E42E76572C0178E800532CBE /* ZoomableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E76562C0178E800532CBE /* ZoomableScrollView.swift */; };
+		E42E76592C017CE500532CBE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42E76582C017CE500532CBE /* Launch Screen.storyboard */; };
 		E434FF022BDAF26200C00693 /* UpdateEditFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E434FF012BDAF26200C00693 /* UpdateEditFormViewModel.swift */; };
 		E434FF042BDAF62F00C00693 /* UpdateEditFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E434FF032BDAF62F00C00693 /* UpdateEditFormView.swift */; };
 		E434FF062BDAF93D00C00693 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E434FF052BDAF93D00C00693 /* ImagePicker.swift */; };
@@ -27,6 +28,7 @@
 		E42E76502C0164E100532CBE /* CameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermission.swift; sourceTree = "<group>"; };
 		E42E76522C01675900532CBE /* UIKitCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitCamera.swift; sourceTree = "<group>"; };
 		E42E76562C0178E800532CBE /* ZoomableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomableScrollView.swift; sourceTree = "<group>"; };
+		E42E76582C017CE500532CBE /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		E434FF012BDAF26200C00693 /* UpdateEditFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEditFormViewModel.swift; sourceTree = "<group>"; };
 		E434FF032BDAF62F00C00693 /* UpdateEditFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEditFormView.swift; sourceTree = "<group>"; };
 		E434FF052BDAF93D00C00693 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				E434FF002BDAF25000C00693 /* Model Edits */,
 				E4C401FA2BD5AE5E0058E67B /* ImagePicker_Camera */,
 				E4C401ED2BD5A7060058E67B /* Assets.xcassets */,
+				E42E76582C017CE500532CBE /* Launch Screen.storyboard */,
 				E4C401EF2BD5A7060058E67B /* Camera_Photos_SwiftData.entitlements */,
 				E4C401F02BD5A7060058E67B /* Preview Content */,
 			);
@@ -173,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42E76592C017CE500532CBE /* Launch Screen.storyboard in Resources */,
 				E4C401F22BD5A7060058E67B /* Preview Assets.xcassets in Resources */,
 				E4C401EE2BD5A7060058E67B /* Assets.xcassets in Resources */,
 			);
@@ -337,6 +341,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -376,6 +381,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
