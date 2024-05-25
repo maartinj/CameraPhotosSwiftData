@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E42E76512C0164E100532CBE /* CameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E76502C0164E100532CBE /* CameraPermission.swift */; };
 		E434FF022BDAF26200C00693 /* UpdateEditFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E434FF012BDAF26200C00693 /* UpdateEditFormViewModel.swift */; };
 		E434FF042BDAF62F00C00693 /* UpdateEditFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E434FF032BDAF62F00C00693 /* UpdateEditFormView.swift */; };
 		E434FF062BDAF93D00C00693 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E434FF052BDAF93D00C00693 /* ImagePicker.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E42E76502C0164E100532CBE /* CameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermission.swift; sourceTree = "<group>"; };
 		E434FF012BDAF26200C00693 /* UpdateEditFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEditFormViewModel.swift; sourceTree = "<group>"; };
 		E434FF032BDAF62F00C00693 /* UpdateEditFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEditFormView.swift; sourceTree = "<group>"; };
 		E434FF052BDAF93D00C00693 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			children = (
 				E4C401FB2BD5AE6F0058E67B /* Constants.swift */,
 				E434FF052BDAF93D00C00693 /* ImagePicker.swift */,
+				E42E76502C0164E100532CBE /* CameraPermission.swift */,
 			);
 			path = ImagePicker_Camera;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				E434FF082BDAFDBE00C00693 /* ModelFormType.swift in Sources */,
 				E4C401EA2BD5A7050058E67B /* Camera_Photos_SwiftDataApp.swift in Sources */,
 				E434FF062BDAF93D00C00693 /* ImagePicker.swift in Sources */,
+				E42E76512C0164E100532CBE /* CameraPermission.swift in Sources */,
 				E434FF042BDAF62F00C00693 /* UpdateEditFormView.swift in Sources */,
 				E4C401FC2BD5AE6F0058E67B /* Constants.swift in Sources */,
 			);
@@ -318,6 +322,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Permission required to take photos with camera";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -356,6 +361,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Permission required to take photos with camera";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
