@@ -30,25 +30,25 @@ enum CameraPermission {
                 return "Use the photo album instead."
             }
         }
-
-        static func checkPermissions() -> CameraError? {
-            if UIImagePickerController.isSourceTypeAvailable(.camera) {
-                let authStatus = AVCaptureDevice.authorizationStatus(for: AVMediaType.video)
-                switch authStatus {
-                case .notDetermined:
-                    return nil
-                case .restricted:
-                    return nil
-                case .denied:
-                    return .unauthorized
-                case .authorized:
-                    return nil
-                @unknown default:
-                    return nil
-                }
-            } else {
-                return .unavailable
+    }
+    
+    static func checkPermissions() -> CameraError? {
+        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            let authStatus = AVCaptureDevice.authorizationStatus(for: AVMediaType.video)
+            switch authStatus {
+            case .notDetermined:
+                return nil
+            case .restricted:
+                return nil
+            case .denied:
+                return .unauthorized
+            case .authorized:
+                return nil
+            @unknown default:
+                return nil
             }
+        } else {
+            return .unavailable
         }
     }
 }
